@@ -5,6 +5,11 @@
   <title>Trapdoor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
   <style>
     html, body {
       margin: 0;
@@ -12,8 +17,7 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
-      font-family: Arial, sans-serif;
-      background: black; /* couleur de secours si la vidéo ne charge pas */
+      background: black; /* couleur de secours */
     }
 
     video {
@@ -36,9 +40,12 @@
     }
 
     .overlay h1 {
+      font-family: "Indie Flower", cursive;
+      font-weight: 400;
+      font-style: normal;
       color: white;
       font-size: clamp(3rem, 10vw, 8rem);
-      letter-spacing: 0.25em;
+      letter-spacing: 0.15em;
       text-transform: uppercase;
       text-shadow: 0 0 20px rgba(0,0,0,0.9);
     }
